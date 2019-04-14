@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'Alice_Example' do
+  pod 'Alice', :path => '../'
+  
+
+  target 'Alice_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
